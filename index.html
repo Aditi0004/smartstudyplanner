@@ -483,6 +483,14 @@
         </div>
       </div>
     `;
+          const footerDiv = document.createElement('div');
+          footerDiv.style.textAlign = 'center';
+          footerDiv.style.marginTop = '30px';
+          footerDiv.style.color = '#ff5555';
+          footerDiv.style.fontWeight = '600';
+          footerDiv.style.fontSize = '14px';
+          footerDiv.textContent = 'Made with ❤️ by Aditi';
+          document.getElementById('app').appendChild(footerDiv);
 
           document.getElementById("logout-btn").onclick = () => {
             isLoggedIn = false;
